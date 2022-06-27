@@ -1,0 +1,346 @@
+PS D:\internship work> python -u "d:\internship work\Edvora\TS003.py"
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST driver version for 103.0.5060
+Driver [C:\Users\pushp\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+
+DevTools listening on ws://127.0.0.1:58258/devtools/browser/6926df09-45b1-4149-982a-0150400b8540
+
+
+Test case 1
+
+
+-----------------------------------------------
+Test Updating values in Personal Info Section
+Full Name:ABC XYZ
+Mobile number:1293823422
+Date of Birth:2020-02-11
+Gender:male
+Address:andhri east
+
+
+Login Success
+
+
+Values Updated Successfully
+
+
+Verifing Details
+
+Login Success
+
+
+Test case failed for Full Name change is not saved in server's database correctly
+
+
+Mobile number changed successfully
+
+
+Date of birth changed successfully
+
+
+Gender changed successfully
+
+
+Address changed successfully
+
+
+-----------------------------------------------
+Test Changing password in Security section
+Older Password:hello
+New Password:hii
+
+
+Login Success
+
+Password changed successfully 
+
+Login Success
+
+Password verified successfully
+
+
+
+
+Test case 2
+
+
+-----------------------------------------------
+Test Updating values in Personal Info Section
+Full Name:abcxyz
+Mobile number:sdadwewdx
+Date of Birth:2000-10-02
+Gender:female
+Address:h no. 123,sajd,ds
+
+
+Login Success
+
+
+Values Updated Successfully
+
+
+Verifing Details
+
+Login Success
+
+
+Full name changed successfully
+
+(Error must be there on webpage as only numeric values and +( for country code) should be there in Mobile number)
+
+Mobile number changed successfully
+
+
+Date of birth changed successfully
+
+
+Gender changed successfully
+
+
+Address changed successfully
+
+
+-----------------------------------------------
+Test Changing password in Security section
+Older Password:hii
+New Password:HoLa
+
+
+Login Success
+
+Password changed successfully 
+
+Login Success
+
+Password verified successfully
+
+
+
+
+Test case 3
+
+
+-----------------------------------------------
+Test Updating values in Personal Info Section
+Full Name:Abc
+Mobile number:csddew12132
+Date of Birth:1999-01-01
+Gender:other
+Address:12/21,hcjds
+
+
+Login Success
+
+
+Values Updated Successfully
+
+
+Verifing Details
+
+Login Success
+
+
+Full name changed successfully
+
+(Error must be there on webpage as only numeric values and +( for country code) should be there in Mobile number)
+
+Mobile number changed successfully
+
+
+Test case failed Date of birth change is not saved in server's database correctly
+
+
+Gender changed successfully
+
+
+Address changed successfully
+
+
+-----------------------------------------------
+Test Changing password in Security section
+Older Password:HoLa
+New Password:ABCZTY
+
+
+Login Success
+
+Password changed successfully 
+
+Login Success
+
+Password verified successfully
+
+
+
+
+Test case 4
+
+
+-----------------------------------------------
+Test Updating values in Personal Info Section
+Full Name:ABC123
+Mobile number:ABC1234
+Date of Birth:1923-12-28
+Gender:transgender
+Address:!@sdsf@#
+
+
+Login Success
+
+
+Values Updated Successfully
+
+
+Verifing Details
+
+Login Success
+
+(Error must be there on webpage as only alphabets are considered as Name)
+
+Full name changed successfully
+
+(Error must be there on webpage as only numeric values and +( for country code) should be there in Mobile number)
+
+Mobile number changed successfully
+
+
+Date of birth changed successfully
+
+
+Test Case failed due to Wrong gender input
+ Value is not changed
+
+Address changed successfully
+
+
+-----------------------------------------------
+Test Changing password in Security section
+Older Password:ABCZTY
+New Password:in@22
+
+
+Login Success
+
+Password changed successfully 
+
+Login Success
+
+Password verified successfully
+
+
+
+
+Test case 5
+
+
+-----------------------------------------------
+Test Updating values in Personal Info Section
+Full Name:Abc@123
+Mobile number:jdh@!1231
+Date of Birth:1800-11-01
+Gender:not want to disclose
+Address:21324
+
+
+Login Success
+
+
+Values Updated Successfully
+
+
+Verifing Details
+
+Login Success
+
+(Error must be there on webpage as only alphabets are considered as Name)
+
+Full name changed successfully
+
+(Error must be there on webpage as only numeric values and +( for country code) should be there in Mobile number)
+
+Mobile number changed successfully
+
+
+Date of birth changed successfully
+
+
+Test Case failed due to Wrong gender input
+ Value is not changed
+
+Address changed successfully
+
+
+-----------------------------------------------
+Test Changing password in Security section
+Older Password:in@22
+New Password:In@25
+
+
+Login Success
+
+Password changed successfully 
+
+Login Success
+
+Password verified successfully
+
+
+
+
+Test case 6
+
+
+-----------------------------------------------
+Test Updating values in Personal Info Section
+Full Name:!@@#$#@
+Mobile number:@#%#$%$
+Date of Birth:2000-02-02
+Gender:none
+Address:099823
+
+
+Login Success
+
+
+Values Updated Successfully
+
+
+Verifing Details
+
+Login Success
+
+(Error must be there on webpage as only alphabets are considered as Name)
+
+Full name changed successfully
+
+(Error must be there on webpage as only numeric values and +( for country code) should be there in Mobile number)
+
+Mobile number changed successfully
+
+
+Date of birth changed successfully
+
+
+Test Case failed due to Wrong gender input
+ Value is not changed
+
+Address changed successfully
+
+
+-----------------------------------------------
+Test Changing password in Security section
+Older Password:In@25
+New Password:!@#$%&
+
+
+Login Success
+
+Password changed successfully 
+
+Login Success
+
+Password verified successfully
+

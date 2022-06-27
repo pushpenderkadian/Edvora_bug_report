@@ -1,0 +1,190 @@
+PS D:\internship work> python -u "d:\internship work\Edvora\TS002.py"
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST driver version for 103.0.5060
+Driver [C:\Users\pushp\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+
+DevTools listening on ws://127.0.0.1:57993/devtools/browser/3708ace6-5dfc-4ea4-9285-fd3fb3029ae2
+
+Test case 1
+
+Checking Username input Field for given value
+
+Test case is success 
+ Value given is :- HELLO
+
+Checking Password input Field for given value
+
+Test case is success 
+ Value given is :- HELLO
+
+user is unable to login as Account was not created(doesn't exit) 
+because username contains uppercase characters
+
+Test case 2
+
+Checking Username input Field for given value
+
+Test case is success 
+ Value given is :- HeLlO
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- HeLlO
+
+user is unable to login as Account was not created(doesn't exit)
+because username contains uppercase characters
+
+Test case 3
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- hello
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- hello
+
+user is unable to login as Account was not created(doesn't exit)
+
+Test case 4
+
+Checking Username input Field for given value
+
+Test case failed
+ Expected Value is :- HarryPotter
+ Value found in input box is :- Harry
+unable to write more than 5 characters in box
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- HarryPotter
+
+Test case Failed user not able to login with given username and password as account doesn't exist
+
+
+Test case 5
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- 1234
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- 1234
+Test case Success Account logged in successfully
+
+Test case 6
+
+Checking Username input Field for given value
+
+Test case failed
+ Expected Value is :- 1234567
+ Value found in input box is :- 12345
+unable to write more than 5 characters in box
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- 1234567
+
+Test case Failed user not able to login with given username and password as account doesn't exist
+
+
+Test case 7
+
+Checking Username input Field for given value
+
+Test case failed
+ Expected Value is :- Hello123
+ Value found in input box is :- Hello
+unable to write more than 5 characters in box
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- Hello123
+
+Test case Failed user not able to login with given username and password as account doesn't exist
+
+
+Test case 8
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- hii12
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- hii12
+Test case Success Account logged in successfully
+
+Test case 9
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- IN@11
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- IN@11
+
+user is unable to login as Account was not created(doesn't exit)
+because username contains uppercase characters and username and password contains non-alphanumeric characters
+
+Test case 10
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- !@#$%
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- !@#$%
+
+user is unable to login as Account was not created(doesn't exit)
+because username contains uppercase characters and username and password contains non-alphanumeric characters
+
+Test case 11
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- in@11
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- in@11
+
+user is unable to login as Account was not created(doesn't exit)
+because username and password contains non-alphanumeric characters
+
+
+Checking if session of logged user is saved or not
+logging in with username : hello
+         password : hello
+Account logged in Successfully
+
+Session is not saved credentials are reset to null after Refresh
+
+        --------------------------------------------
+          Waiting for server resource failed alert
+                        120 seconds
+
+
+Pop up message Server replied Getting server resources failed

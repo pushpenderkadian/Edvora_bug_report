@@ -1,0 +1,227 @@
+PS D:\internship work> python -u "d:\internship work\Edvora\TS001.py"
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST driver version for 103.0.5060
+Driver [C:\Users\pushp\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+
+DevTools listening on ws://127.0.0.1:57950/devtools/browser/ce4ee8d3-13fa-451e-95f1-598978b006fe
+
+Test case 1
+
+Checking Username input Field for given value
+
+Test case failed 
+ Expected Value is :- HELLO 
+ Value found in input box is :- hello
+
+Checking Password input Field for given value
+
+Test case is success 
+ Value given is :- HELLO
+
+ Unable to Enter Username's Given Value
+
+Account creation test case failed!!
+
+
+Test case 2
+
+Checking Username input Field for given value
+
+Test case failed 
+ Expected Value is :- HeLlO 
+ Value found in input box is :- hello
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- HeLlO
+
+ Unable to Enter Username's Given Value
+
+Account creation test case failed!!
+
+
+Test case 3
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- hello
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- hello
+
+
+Pop up message :- Account scussfully created
+
+Account creation test case failed!!
+
+
+Test case 4
+
+Checking Username input Field for given value
+
+Test case failed
+ Expected Value is :- HarryPotter
+ Value found in input box is :- harry
+unable to type more than 5 character in input box
+
+Checking Password input Field for given value
+
+Test case failed
+ Expected Value is :- HarryPotter
+ Value found in input box is :- Harry
+unable to type more than 5 character in input box
+
+ Unable to Enter Username's Given Value
+
+ Unable to Enter Password's Given Value
+
+Account creation test case failed!!
+
+
+Test case 5
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- 1234
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- 1234
+
+Pop up message :- Account sucessfully created.
+
+Test case success
+Account created successfully with
+Username:1234
+Password:1234
+
+
+
+Test case 6
+
+Checking Username input Field for given value
+
+Test case failed
+ Expected Value is :- 1234567
+ Value found in input box is :- 12345
+unable to type more than 5 character in input box
+
+Checking Password input Field for given value
+
+Test case failed
+ Expected Value is :- 1234567
+ Value found in input box is :- 12345
+unable to type more than 5 character in input box
+
+ Unable to Enter Username's Given Value
+
+ Unable to Enter Password's Given Value
+
+Account creation test case failed!!
+
+
+Test case 7
+
+Checking Username input Field for given value
+
+Test case failed
+ Expected Value is :- Hello123
+ Value found in input box is :- hello
+unable to type more than 5 character in input box
+
+Checking Password input Field for given value
+
+Test case failed
+ Expected Value is :- Hello123
+ Value found in input box is :- Hello
+unable to type more than 5 character in input box
+
+ Unable to Enter Username's Given Value
+
+ Unable to Enter Password's Given Value
+
+Account creation test case failed!!
+
+
+Test case 8
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- hii12
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- hii12
+
+Pop up message :- Account sucessfully created.
+
+Test case success
+Account created successfully with
+Username:hii12
+Password:hii12
+
+
+
+Test case 9
+
+Checking Username input Field for given value
+
+Test case failed
+ Expected Value is :- IN@11
+ Value found in input box is :- in@11
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- IN@11
+
+ Unable to Enter Username's Given Value
+
+Account creation test case failed!!
+
+
+Test case 10
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- !@#$%
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- !@#$%
+
+
+Pop up message :- something went wrong
+
+Account creation test case failed!!
+
+
+Test case 11
+
+Checking Username input Field for given value
+
+Test case is success
+ Value given is :- in@11
+
+Checking Password input Field for given value
+
+Test case is success
+ Value given is :- in@11
+
+
+Pop up message :- something went wrong
+
+Account creation test case failed!!
